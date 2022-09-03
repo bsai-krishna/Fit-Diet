@@ -1,0 +1,270 @@
+<html>
+
+<head>
+    <title>Digital Public Health and Diet Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+
+    <div class="main">
+
+        <nav id="navbar">
+
+            <div class="logo">
+                <img src="logo1.png">
+            </div>
+            <ul>
+                <li><a class="home" href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+        <img class="girl" src="photos/girl.png">
+    </div>
+    </div>
+    <section id="Home">
+    <div class="information">
+        <div class="text5">Your first step to Fitness!</div>
+        <div class="text">Fit+Diet is your trusted source for information on eating well and exercising.
+            Let our expert advice, creative workouts, and delicious recipes inspire you!
+            Start your wellness journey today!!</div>
+    </div>
+    </div>
+</section>
+    <section id="About">
+        <div class="main2">
+            <div class="Aboutus">About Us</div>
+            <img class="bmi" src="photos/bmi.png">
+            <img class="wp" src="photos/young-girl-running-on-treadmill 1.png">
+            <img class="dp" src="photos/diet-plan 1.png">
+            <div class="text8">
+
+                This page covers healthy eating advice for the general population.
+
+                People with special dietary needs or a medical condition should ask their doctor or a registered
+                dietitian for advice.We believe fitness should be accessible to everyone, everywhere, regardless of
+                income or access to a gym. With hundreds of professional workouts, healthy recipes and informative
+                articles, as well as one of the most positive communities on the web, you’ll have everything you need to
+                reach your personal fitness goals – for free!
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+    <section id="BmiCalculator">
+        <div class="main3">
+            <div class="text2">BMI CALCULATOR</div>
+            <div class="text3">BMI (Body Mass Index) is a number calculated from a person's weight and height. BMI is a
+                fairly reliable indicator of body fatness for most people. Additionally, BMI is an inexpensive and
+                easy-to-perform method of screening for weight categories that may lead to health problems. </div>
+            <img class="bmitable" src="photos/bmitable.png">
+            <div class="calc">
+                <label>
+                    <input id="h-input" type="number" placeholder="Enter Your Height in Centimeters: ">
+                </label>
+                <label>
+                    <input id="w-input" type="number" placeholder="Enter Your Weight in Kilograms: ">
+                </label>
+                <button type="submit" onclick="Calculate()">Calculate BMI</button>
+
+                <div class="bmi-value">
+                    <h4>BMI Value: </h4>
+                    <div id="bmi-output"></div>
+                </div>
+                <div class="status">
+                    <h4>Status: </h4>
+                    <div id="bmi-status"></div>
+                </div>
+            </div>
+    </section>
+    <section id="Services">
+        <div class="main4">
+            <img src="photos/image.jfif" width="100%" height="135%">
+            <div class="rectangle4"></div>
+            <div class="text9">WORKOUT CATEGORIES </div>
+            <div class="text10"> Choose a category that best suits the workout you're searching for.</div>
+            <img class="mb" src="photos/mb.jfif">
+            <img class="fl" src="photos/fl.jpeg">
+            <img class="cardio" src="Cardio.jpg">
+            <img class="ah" src="photos/ah.jpg">
+            <a href="pdf/mb.pdf" class="text11" type="button" text-align="center" value="Muscle Building" onClick="Download PDF"> Muscle
+                Building</a>
+            <a href="pdf/fl.pdf" class="text12" type="button" value="Fat Loss" onClick="Download PDF">Fat Loss</a>
+            <a href="pdf/cardio.pdf" class="text13" type="button" value="Cardio" onClick="Download PDF">Cardio</a>
+            <a href="pdf/at.pdf" class="text14" type="button" value="At home" onClick="Download PDF">At Home</a>
+        </div>
+    </section>
+    <section id="Blog">
+        <div class="main5">
+            <div class="Blog">BLOG</div>
+            <a href="#lcinfo">
+            <img class="img1" src="photos/image 1.png"> </a>
+            <a href="#hhinfo">
+            <img class="img2" src="photos/image 2.png"></a>
+            <a href="#interinfo">
+            <img class="img3" src="photos/image 3.png"></a>
+            <div class="benefits">Benefits of low-carb diets</div>
+            <div class="lowcarb">
+
+                Health benefits of low-carb diet are very well established and well known to all of us. Not only does it
+                improve our cholesterol, blood pressure and blood sugar, but it also reduces the appetite and helps in
+                weight loss. In this video, we will cover some of the most important benefits of a low-carb diet.
+                Low-carb diet reduces appetite Hunger and food craving is the most common…</div>
+            <div class="benefits2">Healthy Diet and Calories</div>
+            <div class="healthy">
+                Diet is an eating pattern that supplies us the nutrients our body need to function properly. Without
+                proper nutrition, the body gets more prone to diseases, disorders, infections, fatigue and low
+                performance. Unavailability of proper nutrition may also lead to growth and developmental problems, poor
+                academic performance, and frequent infections in children. What are calories? Calorie in a food means
+                the amount of energy stored in that food...
+            </div>
+            <div class="benefits3">Intermittent Fasting – Types and Benefits</div>
+            <div class="fasting">
+                Intermittent fasting is an eating pattern that cycles between periods of fasting and eating. The most
+                common intermittent fasting method involves a daily 16-hour fast, divided into intervals. The concept of
+                intermittent fasting is not based on a specific type of nutrition but is based on when we should eat.
+                Therefore, it is not a conventional diet and is…
+            </div>
+        </div>
+    </section>
+    <section id="info">
+        <div class="main6">
+            <img class="imgg1" src="photos/image 1.png">
+            <div id="lcinfo"><pre>
+                <b>Benefits of Low Carb Diet</b>
+                Health benefits of low-carb diet are very well established and well known to all of us. Not only does it improve our cholesterol, blood pressure and blood sugar, 
+                but it also reduces the appetite and helps in weight loss. In this video, we will cover some of the most important benefits of a low-carb diet.
+
+                <b>Low-carb diet reduces appetite</b>
+                Hunger and food craving is the most common challenge we face while following a strict diet. It is also one of the main reasons why many people get fed up and 
+                eventually give up dieting. However, eating low-carb food results in a reduction in appetite. This happens because low-carb diet makes us eat more of protein 
+                and fat, and foods that are rich in protein and fat make us feel full for a longer duration.This leads to less hunger as well as lesser intake of calories.
+
+                <b>Low-carb diet leads to weight loss</b>
+                Cutting down carbs is one of the simplest and most effective ways to lose weight. Studies have shown that people on a low-carb diet lose more weight and faster 
+                than those on low-fat diet. One of the main reasons behind it is that low-carb diet makes the body get rid of excess water and also lowers the insulin levels. 
+                Both of these factors result in an efficient and faster weight loss.
+
+                <b>Low-carb diet promotes good cholesterol (HDL)</b>
+                High-density lipoprotein or HDL is often called “good cholesterol”. Higher the levels of HDL in comparison to “bad cholesterol” or LDL, lower is the risk of heart 
+                disease. One of the best ways to increase good cholesterol or HDL is to eat healthy fat and a low-carb diets includes a lot of it.
+
+                <b>Low-carb diet reduces blood sugar and insulin levels</b>
+                Low-carb diet is particularly beneficial for people with diabetes and insulin resistance. Studies have proved that cutting down carbohydrates lowers both blood sugar 
+                and insulin levels drastically. Many people with diabetes who begin a low-carb diet tend to reduce their insulin dosage by 50% almost immediately.
+
+               <b> Low-carb diet reduces bad cholesterol (LDL)</b>
+                Lastly, people who have high LDL or bad cholesterol are at a greater risk of suffering heart attack. However, the size of LDL molecules in blood is an important factor. 
+                Smaller molecules put us at a higher risk of heart disease as compared to the larger molecules. Low-carb diet increases the size of “bad cholesterol” or LDL molecules 
+                as well as reduces the total number of LDL particles in the bloodstream.
+                </pre>
+            </div>
+        </div>
+    </section>
+    <section id="info2">
+        <div class="main7">
+            <img class="imgg2" src="photos/image 2.png">
+            <div id="hhinfo"><pre>
+                <b>Healthy Diet and Calories</b>
+                Diet is an eating pattern that supplies us the nutrients our body need to function properly. Without proper nutrition, the body gets more prone to diseases, disorders,
+                infections, fatigue and low performance.
+
+               <b> What are calories?</b>
+                Calorie in a food means the amount of energy stored in that food. The body uses calories from food to sustain, be it walking, thinking, breathing, and all the internal
+                body functions.
+
+                An average person needs about 2,000 calories every day to maintain weight, but a better judgement of recommended calorie intake is made basis the age, gender, and
+                physical activity level. Males tend to need more calories than females. Also, people who exercise need more calories than people who don’t. For balanced nutrition,
+                most of our daily calories should come from fresh fruits and vegetables, whole grains, legumes, nuts and lean proteins.
+
+                <b>What to eat for a healthy diet?</b>
+                A healthy and balanced diet should include multiple nutrients in appropriate quantities such as vitamins, minerals, and antioxidants. Carbohydrates, including 
+                starch and fiber. Protein and healthy fat.
+
+                A balanced diet includes a variety of foods and these food are classified under different food groups, namely, fruits, vegetables, grains, dairy and protein foods such
+                as meat, eggs, fish, beans, nuts and legumes.
+
+                <b>Foods to avoid on a healthy diet:</b>
+                Certain foods either do not provide us any useful nutrients at all or their unhealthy calories far outweigh their nutritive benefits. Foods to avoid or limit on a
+                healthy diet include highly processed foods, refined grains, added sugar, red and processed meats, fast food, alcohol and trans fat.
+
+                <b>Conclusion</b>
+                The bottom line is, a varied and healthy diet usually contains plenty of fresh and whole foods, and limits the intake of processed foods. It not only helps in proper 
+                development and functioning of the body but also prevents the risk of developing diseases.<pre></div>
+    </section>
+    <section id="inter">
+        <div class="main8">
+            <img class="imgg3" src="photos/image 3.png">
+            <div id="interinfo"><pre>
+                <b>Intermittent Fasting – Types and Benefits</b>
+                Intermittent fasting is an eating pattern that cycles between periods of fasting and eating. The most common intermittent fasting method involves a daily 16-hour 
+                fast, divided into intervals. 
+
+                <b>Intermittent fasting methods </b>
+                There are different ways of intermittent fasting. What’s common between them is that all of them involve splitting the day or week into intervals of eating and 
+                fasting.
+
+                During the fasting intervals, we can sometimes eat but very little, in case of hunger becomes uncontrollable. By reducing our calorie intake, all of these 
+                methods aid in weight loss. However, we must ensure not to overeat during the eating period to compensate for the hunger felt during the fasting period. 
+
+                <b>16/8 Method</b>
+                In this method, we need to skip breakfast and restrict all our meals within an 8 hour period. For example, between 1p.m to 9p.m. In the remaining part of 
+                the day, which is of 16 hours, we have to fast.
+
+                <b>Eat-Stop-Eat Method</b>
+                This method involves fasting for 24 hours, once or twice a week. Fasting is observed from previous day’s dinner to the next day’s dinner. 
+
+                <b>5:2 Method</b>
+                In this method, we consume only 500–600 calories on 2 non-consecutive days of the week and eat normally on the other 5 days.
+
+                <b>Powerful weight loss tool</b>
+                Weight loss is the most common reason behind people attempting intermittent fasting. Eating fewer meals leads to an automatic reduction in calorie intake. 
+                Intermittent fasting also causes changes in hormone levels. Together, these 2 aspects lead to weight loss. 
+
+                <b>Health benefits of intermittent fasting</b> 
+                There are many health benefits of intermittent fasting. It can help us lose weight and belly fat without having to consciously restrict our calories. Intermittent 
+                fasting can also reduce insulin resistance which leads to lowering of blood sugar which in turn can prevent the risk of Type 2 diabetes. Intermittent fasting may 
+                also prevent risk of heart diseases by reducing bad cholesterol (LDL), blood triglycerides, blood sugar and insulin resistance. Intermittent fasting also promotes
+                brain health and prevents the risk of Alzheimer’s disease </pre>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="main9">
+            <input id="input1" type="name" placeholder="Enter Your Name">
+            <input id="input2" type="email" placeholder="Enter Your E-mail Address">
+            <input id="input3" type="msg" placeholder="Enter Your Message">
+            
+            <div class="main10"></div>
+                <div class="getin">GET IN TOUCH</div>
+                <div class="hey">Hey! We are looking forward to help you more!</div>
+                
+                <button type="submit" id="submit1" value="Submit">Submit</button>
+                <div class="rect"></div>
+
+                <div class="rect1"></div>
+                <div class="Cont">Contact</div>
+                <img class="png1" src="photos/Vector.png">
+                <img class="png2" src="photos/Untitled design 1.png">
+                <img class="png3" src="photos/Untitled design (1) 1.png">
+                <img class="png4" src="photos/Untitled design (2) 1 (2).png">
+                <div class="num">9625874069</div>
+                <div class="mail">fitplusdiet@gmail.com</div>
+                <div class="add">Kandivali West, Mumbai- 400067, Maharashtra, India</div>
+            </div>
+    </section>
+    
+</body>
+
+</html>
